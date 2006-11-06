@@ -1,17 +1,20 @@
 #Full Event content 
 block RecoBTagFEVT = {
   untracked vstring outputCommands = {
+	"keep *_trackCountingJetTags_*_*"
   }		
 }	
 
 #RECO content
 block RecoBTagRECO = {
   untracked vstring outputCommands = {
+	"keep *_trackCountingJetTags_*_*"
   }		
 }	
 
 #AOD content
 block RecoBTagAOD = {
   untracked vstring outputCommands = {
+	"keep *_trackCountingJetTags_*_*"
   }		
 }	
