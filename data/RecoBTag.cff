@@ -3,4 +3,4 @@ include "MagneticField/Engine/data/volumeBasedMagneticField.cfi"
 include "RecoBTag/TrackCounting/data/trackCounting.cff"
 include "RecoBTag/SoftLepton/data/softLepton.cff"
 
-sequence btagging = { trackCountingJetTags, softLeptonJetTags }
+sequence btagging = { trackCountingJetTags, btagSoftElectrons, softElectronJetTags, softMuonJetTags }
