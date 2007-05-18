@@ -9,6 +9,4 @@ include "RecoBTag/SoftLepton/data/softLepton.cff"
 include "RecoBTag/ImpactParameter/data/impactParameter.cff"
 include "RecoBTau/JetTagProducer/data/jetTags.cff"
 # new
-sequence btagging = { (impactParameterTagInfos, jetProbabilityJetTags, trackCountingHighPurJetTags, trackCountingHighEffJetTags ) }
-#& (btagSoftElectrons, softElectronJetTags) & softMuonJetTags } 
-### removed because of missing muon stuff
+sequence btagging = { (impactParameterTagInfos, jetProbabilityJetTags, trackCountingHighPurJetTags, trackCountingHighEffJetTags ),  (btagSoftElectrons, softElectronJetTags) & softMuonJetTags } 
