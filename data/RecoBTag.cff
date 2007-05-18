@@ -1,6 +1,14 @@
 include "MagneticField/Engine/data/volumeBasedMagneticField.cfi"
 
-include "RecoBTag/TrackCounting/data/trackCounting.cff"
-include "RecoBTag/SoftLepton/data/softLepton.cff"
+# old
+#include "RecoBTag/TrackCounting/data/trackCounting.cff"
+#sequence btagging = { trackCountingJetTags & (btagSoftElectrons, softElectronJetTags) & softMuonJetTags }
 
-sequence btagging = { trackCountingJetTags & (btagSoftElectrons, softElectronJetTags) & softMuonJetTags }
+
+include "RecoBTag/SoftLepton/data/softLepton.cff"
+include "RecoBTag/ImpactParameter/data/impactParameter.cff"
+include "RecoBTau/JetTagProducer/data/jetTags.cff"
+# new
+sequence btagging = { (impactParameterTagInfos, jetProbabilityJetTags, trackCountingHighPurJetTags, trackCountingHighEffJetTags ) }
+#& (btagSoftElectrons, softElectronJetTags) & softMuonJetTags } 
+### removed because of missing muon stuff
