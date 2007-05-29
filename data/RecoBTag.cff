@@ -8,5 +8,8 @@ include "MagneticField/Engine/data/volumeBasedMagneticField.cfi"
 include "RecoBTag/SoftLepton/data/softLepton.cff"
 include "RecoBTag/ImpactParameter/data/impactParameter.cff"
 include "RecoBTau/JetTagProducer/data/jetTags.cff"
+
+include "RecoBTag/CombinedSV/data/combined.cfi"
+
 # new
-sequence btagging = { (impactParameterTagInfos, jetProbabilityJetTags, trackCountingHighPurJetTags, trackCountingHighEffJetTags ),  (btagSoftElectrons, softElectronJetTags) & softMuonJetTags } 
+sequence btagging = { (impactParameterTagInfos, jetProbabilityJetTags, trackCountingHighPurJetTags, trackCountingHighEffJetTags ),  (btagSoftElectrons, softElectronJetTags) & softMuonJetTags , combinedSVJetTags } 
