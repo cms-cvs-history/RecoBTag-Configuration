@@ -2,8 +2,11 @@
 block RecoBTagFEVT = {
   untracked vstring outputCommands = {
         "keep *_btagSoftElectrons_*_*",
+        "keep *_softElectronTagInfos_*_*",
+        "keep *_softMuonTagInfos_*_*",
         "keep *_softElectronJetTags_*_*",
         "keep *_softMuonJetTags_*_*",
+        "keep *_softMuonNoIPJetTags_*_*",
         "keep *_impactParameterTagInfos_*_*",
         "keep *_jetProbabilityJetTags_*_*",
         "keep *_trackCountingHighPurJetTags_*_*",
@@ -19,8 +22,11 @@ block RecoBTagFEVT = {
 block RecoBTagRECO = {
   untracked vstring outputCommands = {
         "keep *_btagSoftElectrons_*_*",
+        "keep *_softElectronTagInfos_*_*",
+        "keep *_softMuonTagInfos_*_*",
         "keep *_softElectronJetTags_*_*",
         "keep *_softMuonJetTags_*_*",
+        "keep *_softMuonNoIPJetTags_*_*",
         "keep *_impactParameterTagInfos_*_*",
         "keep *_jetProbabilityJetTags_*_*",
         "keep *_trackCountingHighPurJetTags_*_*",
@@ -35,8 +41,11 @@ block RecoBTagRECO = {
 block RecoBTagAOD = {
   untracked vstring outputCommands = {
         "keep *_btagSoftElectrons_*_*",
+        "keep *_softElectronTagInfos_*_*",
+        "keep *_softMuonTagInfos_*_*",
         "keep *_softElectronJetTags_*_*",
         "keep *_softMuonJetTags_*_*",
+        "keep *_softMuonNoIPJetTags_*_*",
         "keep *_impactParameterTagInfos_*_*",
         "keep *_jetProbabilityJetTags_*_*",
         "keep *_trackCountingHighPurJetTags_*_*",
