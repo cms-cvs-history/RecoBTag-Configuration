@@ -1,29 +1,41 @@
 #Full Event content
 block RecoBTagFEVT = {
   untracked vstring outputCommands = {
-	"keep *_trackCountingJetTags_*_*",
         "keep *_btagSoftElectrons_*_*",
         "keep *_softElectronJetTags_*_*",
-        "keep *_softMuonJetTags_*_*"
+        "keep *_softMuonJetTags_*_*",
+        "keep *_impactParameterTagInfos_*_*",
+        "keep *_jetProbabilityJetTags_*_*",
+        "keep *_trackCountingHighPurJetTags_*_*",
+        "keep *_trackCountingHighEffJetTags_*_*"  
+        
   }
 }
 
 #RECO content
 block RecoBTagRECO = {
   untracked vstring outputCommands = {
-	"keep *_trackCountingJetTags_*_*",
         "keep *_btagSoftElectrons_*_*",
         "keep *_softElectronJetTags_*_*",
-        "keep *_softMuonJetTags_*_*"
+        "keep *_softMuonJetTags_*_*",
+        "keep *_impactParameterTagInfos_*_*",
+        "keep *_jetProbabilityJetTags_*_*",
+        "keep *_trackCountingHighPurJetTags_*_*",
+        "keep *_trackCountingHighEffJetTags_*_*"
+
   }
 }
 
 #AOD content
 block RecoBTagAOD = {
   untracked vstring outputCommands = {
-	"keep *_trackCountingJetTags_*_*",
         "keep *_btagSoftElectrons_*_*",
         "keep *_softElectronJetTags_*_*",
-        "keep *_softMuonJetTags_*_*"
+        "keep *_softMuonJetTags_*_*",
+        "keep *_impactParameterTagInfos_*_*",
+        "keep *_jetProbabilityJetTags_*_*",
+        "keep *_trackCountingHighPurJetTags_*_*",
+        "keep *_trackCountingHighEffJetTags_*_*"
+
   }
 }
