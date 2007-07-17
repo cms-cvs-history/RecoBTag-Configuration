@@ -12,4 +12,8 @@ include "RecoBTau/JetTagProducer/data/jetTags.cff"
 include "RecoBTag/CombinedSV/data/combined.cfi"
 
 # new
-sequence btagging = { (impactParameterTagInfos,( jetProbabilityJetTags & trackCountingHighPurJetTags & trackCountingHighEffJetTags) ) &  (btagSoftElectrons, softElectronTagInfos, softElectronJetTags) & ( softMuonTagInfos , ( softMuonJetTags & softMuonNoIPJetTags) ) & combinedSVJetTags } 
+sequence btagging = { (impactParameterTagInfos,( jetProbabilityJetTags & trackCountingHighPurJetTags & trackCountingHighEffJetTags & impactParameterMVAJetTags ) ) &
+        ( btagSoftElectrons, softElectronTagInfos, softElectronJetTags ) &
+        ( softMuonTagInfos, ( softMuonJetTags & softMuonNoIPJetTags ) ) &
+        ( combinedSVJetTags, combinedSVMVAJetTags )
+}

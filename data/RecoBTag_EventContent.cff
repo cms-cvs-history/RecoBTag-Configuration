@@ -11,8 +11,9 @@ block RecoBTagFEVT = {
         "keep *_jetProbabilityJetTags_*_*",
         "keep *_trackCountingHighPurJetTags_*_*",
         "keep *_trackCountingHighEffJetTags_*_*",
+        "keep *_impactParameterMVAJetTags_*_*",
         "keep *_combinedSVJetTags_*_*",
-        "drop recoJetTags_combinedSVJetTags_*_*"
+        "keep *_combinedSVMVAJetTags_*_*"
          
         
   }
@@ -31,8 +32,9 @@ block RecoBTagRECO = {
         "keep *_jetProbabilityJetTags_*_*",
         "keep *_trackCountingHighPurJetTags_*_*",
         "keep *_trackCountingHighEffJetTags_*_*",
+        "keep *_impactParameterMVAJetTags_*_*",
         "keep *_combinedSVJetTags_*_*",  
-        "drop recoJetTags_combinedSVJetTags_*_*"
+        "keep *_combinedSVMVAJetTags_*_*"
 
   }
 }
@@ -50,8 +52,9 @@ block RecoBTagAOD = {
         "keep *_jetProbabilityJetTags_*_*",
         "keep *_trackCountingHighPurJetTags_*_*",
         "keep *_trackCountingHighEffJetTags_*_*",
+        "keep *_impactParameterMVAJetTags_*_*",
         "keep *_combinedSVJetTags_*_*",  
-        "drop recoJetTags_combinedSVJetTags_*_*"
+        "keep *_combinedSVMVAJetTags_*_*"
 
   }
 }
