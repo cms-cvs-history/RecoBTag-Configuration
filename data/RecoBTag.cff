@@ -10,7 +10,7 @@ include "RecoBTag/ImpactParameter/data/impactParameter.cff"
 
 #include "RecoBTau/JetTagProducer/data/jetTags.cff"
 
-include "RecoBTag/CombinedSV/data/combined.cfi"
+include "RecoBTag/CombinedSV/data/combined.cff"
 
 # new
 sequence btagging = { (impactParameterTagInfos,( jetProbabilityJetTags & trackCountingHighPurJetTags & trackCountingHighEffJetTags & impactParameterMVAJetTags ) ) &
