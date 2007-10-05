@@ -2,7 +2,7 @@ include "MagneticField/Engine/data/volumeBasedMagneticField.cfi"
 
 # old 
 #include "RecoBTag/TrackCounting/data/trackCounting.cff"
-#sequence btagging = { trackCountingJetTags & (btagSoftElectrons, softElectronJetTags) & softMuonJetTags }
+#sequence btagging = { trackCountingBJetTags & (btagSoftElectrons, softElectronBJetTags) & softMuonBJetTags }
 
 
 include "RecoBTag/SoftLepton/data/softLepton.cff"
@@ -13,8 +13,8 @@ include "RecoBTag/ImpactParameter/data/impactParameter.cff"
 include "RecoBTag/CombinedSV/data/combined.cff"
 
 # new
-sequence btagging = { (impactParameterTagInfos,( jetProbabilityJetTags & trackCountingHighPurJetTags & trackCountingHighEffJetTags & impactParameterMVAJetTags ) ) &
-        ( btagSoftElectrons, softElectronTagInfos, softElectronJetTags ) &
-        ( softMuonTagInfos, ( softMuonJetTags & softMuonNoIPJetTags ) ) &
-        ( combinedSVJetTags, combinedSVMVAJetTags )
+sequence btagging = { (impactParameterTagInfos,( jetProbabilityBJetTags & trackCountingHighPurBJetTags & trackCountingHighEffBJetTags & impactParameterMVABJetTags ) ) &
+        ( btagSoftElectrons, softElectronTagInfos, softElectronBJetTags ) &
+        ( softMuonTagInfos, ( softMuonBJetTags & softMuonNoIPBJetTags ) ) &
+        ( combinedSVBJetTags, combinedSVMVABJetTags )
 }

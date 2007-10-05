@@ -4,16 +4,16 @@ block RecoBTagFEVT = {
         "keep *_btagSoftElectrons_*_*",
         "keep *_softElectronTagInfos_*_*",
         "keep *_softMuonTagInfos_*_*",
-        "keep *_softElectronJetTags_*_*",
-        "keep *_softMuonJetTags_*_*",
-        "keep *_softMuonNoIPJetTags_*_*",
+        "keep *_softElectronBJetTags_*_*",
+        "keep *_softMuonBJetTags_*_*",
+        "keep *_softMuonNoIPBJetTags_*_*",
         "keep *_impactParameterTagInfos_*_*",
-        "keep *_jetProbabilityJetTags_*_*",
-        "keep *_trackCountingHighPurJetTags_*_*",
-        "keep *_trackCountingHighEffJetTags_*_*",
-        "keep *_impactParameterMVAJetTags_*_*",
-        "keep *_combinedSVJetTags_*_*",
-        "keep *_combinedSVMVAJetTags_*_*"
+        "keep *_jetProbabilityBJetTags_*_*",
+        "keep *_trackCountingHighPurBJetTags_*_*",
+        "keep *_trackCountingHighEffBJetTags_*_*",
+        "keep *_impactParameterMVABJetTags_*_*",
+        "keep *_combinedSVBJetTags_*_*",
+        "keep *_combinedSVMVABJetTags_*_*"
          
         
   }
@@ -25,16 +25,16 @@ block RecoBTagRECO = {
         "keep *_btagSoftElectrons_*_*",
         "keep *_softElectronTagInfos_*_*",
         "keep *_softMuonTagInfos_*_*",
-        "keep *_softElectronJetTags_*_*",
-        "keep *_softMuonJetTags_*_*",
-        "keep *_softMuonNoIPJetTags_*_*",
+        "keep *_softElectronBJetTags_*_*",
+        "keep *_softMuonBJetTags_*_*",
+        "keep *_softMuonNoIPBJetTags_*_*",
         "keep *_impactParameterTagInfos_*_*",
-        "keep *_jetProbabilityJetTags_*_*",
-        "keep *_trackCountingHighPurJetTags_*_*",
-        "keep *_trackCountingHighEffJetTags_*_*",
-        "keep *_impactParameterMVAJetTags_*_*",
-        "keep *_combinedSVJetTags_*_*",  
-        "keep *_combinedSVMVAJetTags_*_*"
+        "keep *_jetProbabilityBJetTags_*_*",
+        "keep *_trackCountingHighPurBJetTags_*_*",
+        "keep *_trackCountingHighEffBJetTags_*_*",
+        "keep *_impactParameterMVABJetTags_*_*",
+        "keep *_combinedSVBJetTags_*_*",  
+        "keep *_combinedSVMVABJetTags_*_*"
 
   }
 }
@@ -45,16 +45,16 @@ block RecoBTagAOD = {
         "keep *_btagSoftElectrons_*_*",
         "keep *_softElectronTagInfos_*_*",
         "keep *_softMuonTagInfos_*_*",
-        "keep *_softElectronJetTags_*_*",
-        "keep *_softMuonJetTags_*_*",
-        "keep *_softMuonNoIPJetTags_*_*",
+        "keep *_softElectronBJetTags_*_*",
+        "keep *_softMuonBJetTags_*_*",
+        "keep *_softMuonNoIPBJetTags_*_*",
         "keep *_impactParameterTagInfos_*_*",
-        "keep *_jetProbabilityJetTags_*_*",
-        "keep *_trackCountingHighPurJetTags_*_*",
-        "keep *_trackCountingHighEffJetTags_*_*",
-        "keep *_impactParameterMVAJetTags_*_*",
-        "keep *_combinedSVJetTags_*_*",  
-        "keep *_combinedSVMVAJetTags_*_*"
+        "keep *_jetProbabilityBJetTags_*_*",
+        "keep *_trackCountingHighPurBJetTags_*_*",
+        "keep *_trackCountingHighEffBJetTags_*_*",
+        "keep *_impactParameterMVABJetTags_*_*",
+        "keep *_combinedSVBJetTags_*_*",  
+        "keep *_combinedSVMVABJetTags_*_*"
 
   }
 }
