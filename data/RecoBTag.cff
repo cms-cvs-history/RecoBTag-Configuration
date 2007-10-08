@@ -7,7 +7,8 @@ include "RecoBTag/ImpactParameter/data/impactParameter.cff"
 include "RecoBTag/CombinedSV/data/combined.cff"
 
 sequence btagging = { 
-    ( impactParameterTagInfos, ( jetProbabilityBJetTags & trackCountingHighPurBJetTags & trackCountingHighEffBJetTags & impactParameterMVABJetTags ) ) &
+    ( impactParameterTagInfos, ( jetBProbabilityBJetTags & jetProbabilityBJetTags & trackCountingHighPurBJetTags & trackCountingHighEffBJetTags & impactParameterMVABJetTags ) ,
+   secondaryVertexTagInfos, ( simpleSecondaryVertexBJetTags & combinedSecondaryVertexBJetTags & combinedSecondaryVertexMVABJetTags )     ) &
     ( btagSoftElectrons, softElectronTagInfos, softElectronBJetTags ) &
     ( softMuonTagInfos, ( softMuonBJetTags & softMuonNoIPBJetTags ) ) &
     ( combinedSVBJetTags, combinedSVMVABJetTags )

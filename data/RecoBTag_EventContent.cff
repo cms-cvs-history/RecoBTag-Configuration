@@ -9,12 +9,16 @@ block RecoBTagFEVT = {
         "keep *_softMuonNoIPBJetTags_*_*",
         "keep *_impactParameterTagInfos_*_*",
         "keep *_jetProbabilityBJetTags_*_*",
+        "keep *_jetBProbabilityBJetTags_*_*",
         "keep *_trackCountingHighPurBJetTags_*_*",
         "keep *_trackCountingHighEffBJetTags_*_*",
         "keep *_impactParameterMVABJetTags_*_*",
         "keep *_combinedSVBJetTags_*_*",
-        "keep *_combinedSVMVABJetTags_*_*"
-         
+        "keep *_combinedSVMVABJetTags_*_*",
+        "keep *_secondaryVertexTagInfos_*_*",
+        "keep *_simpleSecondaryVertexBJetTags_*_*",
+        "keep *_combinedSecondaryVertexBJetTags_*_*",
+        "keep *_combinedSecondaryVertexMVABJetTags_*_*"         
         
   }
 }
@@ -30,11 +34,16 @@ block RecoBTagRECO = {
         "keep *_softMuonNoIPBJetTags_*_*",
         "keep *_impactParameterTagInfos_*_*",
         "keep *_jetProbabilityBJetTags_*_*",
+        "keep *_jetBProbabilityBJetTags_*_*",
         "keep *_trackCountingHighPurBJetTags_*_*",
         "keep *_trackCountingHighEffBJetTags_*_*",
         "keep *_impactParameterMVABJetTags_*_*",
         "keep *_combinedSVBJetTags_*_*",  
-        "keep *_combinedSVMVABJetTags_*_*"
+        "keep *_combinedSVMVABJetTags_*_*",
+        "keep *_secondaryVertexTagInfos_*_*",
+        "keep *_simpleSecondaryVertexBJetTags_*_*",
+        "keep *_combinedSecondaryVertexBJetTags_*_*",
+        "keep *_combinedSecondaryVertexMVABJetTags_*_*"
 
   }
 }
@@ -50,11 +59,16 @@ block RecoBTagAOD = {
         "keep *_softMuonNoIPBJetTags_*_*",
         "keep *_impactParameterTagInfos_*_*",
         "keep *_jetProbabilityBJetTags_*_*",
+        "keep *_jetBProbabilityBJetTags_*_*",
         "keep *_trackCountingHighPurBJetTags_*_*",
         "keep *_trackCountingHighEffBJetTags_*_*",
         "keep *_impactParameterMVABJetTags_*_*",
         "keep *_combinedSVBJetTags_*_*",  
-        "keep *_combinedSVMVABJetTags_*_*"
+        "keep *_combinedSVMVABJetTags_*_*",
+        "keep *_secondaryVertexTagInfos_*_*",
+        "keep *_simpleSecondaryVertexBJetTags_*_*",
+        "keep *_combinedSecondaryVertexBJetTags_*_*",
+        "keep *_combinedSecondaryVertexMVABJetTags_*_*"
 
   }
 }
