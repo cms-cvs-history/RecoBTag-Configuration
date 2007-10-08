@@ -5,6 +5,7 @@ include "MagneticField/Engine/data/volumeBasedMagneticField.cfi"
 include "RecoBTag/SoftLepton/data/softLepton.cff"
 include "RecoBTag/ImpactParameter/data/impactParameter.cff"
 include "RecoBTag/CombinedSV/data/combined.cff"
+include "RecoBTag/SecondaryVertex/data/secondaryVertex.cff"
 
 sequence btagging = { 
     ( impactParameterTagInfos, ( jetBProbabilityBJetTags & jetProbabilityBJetTags & trackCountingHighPurBJetTags & trackCountingHighEffBJetTags & impactParameterMVABJetTags ) ,
