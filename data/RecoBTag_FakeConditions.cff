@@ -1,1 +1,1 @@
-include "RecoBTag/TrackProbability/data/trackProbabilityFakeCondFile.cfi"
+include "RecoBTag/TrackProbability/data/trackProbabilityFakeCond.cfi"
