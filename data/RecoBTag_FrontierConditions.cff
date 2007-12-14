@@ -1,2 +1,2 @@
 include "RecoBTag/TrackProbability/data/trackProbabilityFrontierCond.cfi"
-replace trackProbabilityFrontierCond.connect="frontier://cms_conditions_data/CMS_COND_17X_BTAU"
+replace trackProbabilityFrontierCond.connect="frontier://Frontier/CMS_COND_17X_BTAU"
