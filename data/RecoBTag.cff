@@ -11,5 +11,4 @@ sequence btagging = {
       secondaryVertexTagInfos, ( simpleSecondaryVertexBJetTags & combinedSecondaryVertexBJetTags & combinedSecondaryVertexMVABJetTags ) ) &
     ( btagSoftElectrons, softElectronTagInfos, ( softElectronByPtBJetTags & softElectronBJetTags ) ) &
     ( softMuonTagInfos, ( softMuonByPtBJetTags & softMuonBJetTags & softMuonNoIPBJetTags ) )
-
 }
