@@ -18,7 +18,9 @@ block RecoBTagFEVT = {
         "keep *_secondaryVertexTagInfos_*_*",
         "keep *_simpleSecondaryVertexBJetTags_*_*",
         "keep *_combinedSecondaryVertexBJetTags_*_*",
-        "keep *_combinedSecondaryVertexMVABJetTags_*_*"         
+        "keep *_combinedSecondaryVertexMVABJetTags_*_*",
+        # drop incompatible DataFormats
+        "drop *_*TagInfos_*_Rec"
   }
 }
 
@@ -42,7 +44,9 @@ block RecoBTagRECO = {
         "keep *_secondaryVertexTagInfos_*_*",
         "keep *_simpleSecondaryVertexBJetTags_*_*",
         "keep *_combinedSecondaryVertexBJetTags_*_*",
-        "keep *_combinedSecondaryVertexMVABJetTags_*_*"
+        "keep *_combinedSecondaryVertexMVABJetTags_*_*",
+        # drop incompatible DataFormats
+        "drop *_*TagInfos_*_Rec"
   }
 }
 
@@ -66,6 +70,8 @@ block RecoBTagAOD = {
         "keep *_secondaryVertexTagInfos_*_*",
         "keep *_simpleSecondaryVertexBJetTags_*_*",
         "keep *_combinedSecondaryVertexBJetTags_*_*",
-        "keep *_combinedSecondaryVertexMVABJetTags_*_*"
+        "keep *_combinedSecondaryVertexMVABJetTags_*_*",
+        # drop incompatible DataFormats
+        "drop *_*TagInfos_*_Rec"
   }
 }
