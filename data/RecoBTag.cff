@@ -1,6 +1,5 @@
 # define the b-tag squences for offline reconstruction
 
-include "MagneticField/Engine/data/volumeBasedMagneticField.cfi"
 
 include "RecoBTag/SoftLepton/data/softLepton.cff"
 include "RecoBTag/ImpactParameter/data/impactParameter.cff"
